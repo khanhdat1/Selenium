@@ -10,37 +10,11 @@ Môn học: Đảm bảo chất lượng và Kiểm thử phần mềm
 
 Bài tập thực hiện kiểm thử tự động trên website: https://www.saucedemo.com/
 
-*TC01: Đăng nhập thành công
-Tên chức năng: Đăng nhập thành công
-Các bước thực hiện:
-Truy cập website SauceDemo.
-Nhập username: standard_user.
-Nhập password: secret_sauce.
-Click nút Login.
-Kết quả mong đợi:
-Đăng nhập thành công, hệ thống chuyển sang trang Products.
-Trạng thái: PASSED
-
-*TC02: Thêm sản phẩm vào giỏ hàng
-Tên chức năng: Thêm sản phẩm vào giỏ hàng
-Các bước thực hiện:
-Đăng nhập vào hệ thống.
-Click nút Add to cart của sản phẩm Sauce Labs Backpack.
-Kiểm tra biểu tượng giỏ hàng hiển thị số lượng 1.
-Mở giỏ hàng và kiểm tra tên sản phẩm.
-Kết quả mong đợi:
-Giỏ hàng hiển thị số lượng 1 và có sản phẩm Sauce Labs Backpack.
-Trạng thái: PASSED
-
-*TC03: Đăng xuất hệ thống
-Tên chức năng: Đăng xuất hệ thống
-Các bước thực hiện:
-Đăng nhập vào hệ thống.
-Click nút menu ở góc trái.
-Click nút Logout.
-Kết quả mong đợi:
-Đăng xuất thành công, hệ thống quay về trang Login.
-Trạng thái: PASSED
+| Mã TC | Tên Chức Năng              | Các Bước Thực Hiện                                                                                                                                                                           | Kết Quả Mong Đợi                                                   | Trạng Thái |
+| ----- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------- |
+| TC01  | Đăng nhập thành công       | 1. Vào trang Login. <br> 2. Nhập username `standard_user` và password `secret_sauce`. <br> 3. Click nút "Login".                                                                             | Đăng nhập thành công, hệ thống chuyển sang trang Products.         | PASSED     |
+| TC02  | Thêm sản phẩm vào giỏ hàng | 1. Đăng nhập vào hệ thống. <br> 2. Click nút "Add to cart" của sản phẩm Sauce Labs Backpack. <br> 3. Kiểm tra số lượng hiển thị trên giỏ hàng. <br> 4. Mở giỏ hàng và kiểm tra tên sản phẩm. | Giỏ hàng hiển thị số lượng 1 và có sản phẩm "Sauce Labs Backpack". | PASSED     |
+| TC03  | Đăng xuất hệ thống         | 1. Đăng nhập vào hệ thống. <br> 2. Click nút menu ở góc trái. <br> 3. Click nút "Logout".                                                                                                    | Đăng xuất thành công, hệ thống quay về trang Login.                | PASSED     |
 
 ## 3. Công Cụ Sử Dụng
 
