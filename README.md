@@ -140,6 +140,3 @@ Sau khi chạy chương trình, Selenium tự động mở trình duyệt Google
 
 Kết quả chạy kiểm thử hiển thị cả 03 test case đều ở trạng thái PASSED.
 
-## 7. Kết Luận
-
-Thông qua bài thực hành này, sinh viên đã hiểu cách sử dụng Selenium WebDriver để tự động hóa thao tác trên trình duyệt web. Bài kiểm thử đã áp dụng Selenium để kiểm tra các chức năng cơ bản của website thương mại điện tử như đăng nhập, thêm sản phẩm vào giỏ hàng và đăng xuất. Đây là nền tảng quan trọng để sinh viên có thể tiếp tục phát triển các kịch bản kiểm thử tự động phức tạp hơn trong thực tế.
